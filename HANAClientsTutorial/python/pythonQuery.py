@@ -36,6 +36,9 @@ conn = dbapi.connect(
 	#to an SAP HANA, express edition instance that uses a self-signed certificate
 
     #questa è la prima modifica al programma che faccio 
+
+	#questa è la seconda modifica al programma che voglio mettere su git con una pull request
+	
 )
 #if no errors print connected 
 print('connected') 
