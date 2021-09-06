@@ -1,6 +1,5 @@
 import platform 
 import time
-from hdbcli import dbapi
 
 #verify the architecture of python 
 def attesa(time):{
@@ -24,11 +23,7 @@ conn = dbapi.connect(
 	port = '30213',
 	user = 'ODBC_USER',
 	password = 'CyPAG2021',
-
-	#this is the change that i have made 
-
-	#this is the second change that i have made
-
+	
 	#ADDITIONAL PARAMETERS 
 	#encript =True, #must set on true when connection to HANA as a service 
 	#encription is default set when connecting on port 443 with hana 
