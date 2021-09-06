@@ -34,6 +34,8 @@ conn = dbapi.connect(
 	#encription is default set when connecting on port 443 with hana 
 	#SslValidateCertificate = False #Must be set to false when connecting 
 	#to an SAP HANA, express edition instance that uses a self-signed certificate
+
+    #questa è la prima modifica al programma che faccio 
 )
 #if no errors print connected 
 print('connected') 
