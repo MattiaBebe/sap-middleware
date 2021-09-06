@@ -1,6 +1,5 @@
 import platform 
 import time
-from hdbcli import dbapi
 
 #verify the architecture of python 
 def attesa(time):{
