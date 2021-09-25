@@ -62,3 +62,6 @@ for row in rows:
 	print ("")
 cursor.close()
 conn.close() 
+
+#LATEST CHANGE TO TRY A COMMIT
+# test change	
