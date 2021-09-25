@@ -34,6 +34,8 @@ conn = dbapi.connect(
 
 	#questa è la seconda modifica al programma che voglio mettere su git con una pull request
 	
+	#this is the third change
+
 )
 #if no errors print connected 
 print('connected') 
